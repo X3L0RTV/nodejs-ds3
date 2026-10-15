@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <p>Bienvenue {{email}} !</p>
+    <button onclick="location.href='/action/a?session={{session}}'">Action A</button>
+    <button onclick="location.href='/action/b?session={{session}}'">Action B</button>
+    <button onclick="location.href='/action/c?session={{session}}'">Action C</button>
+    <button onclick="location.href='/action/d?session={{session}}'">Action D</button>
+    <p><a href="/stats?session={{session}}">Voir les statistiques</a></p>
+    <p><a href="{{historyUrl}}">Voir mon historique</a></p>
+</body>
+</html>

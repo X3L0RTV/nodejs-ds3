@@ -1,0 +1,14 @@
+{
+  "name": "tp4-node-events",
+  "version": "1.0.0",
+  "description": "DS3 Node.js - application événementielle, logs et sessions en mémoire",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --test tests/ds3.test.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

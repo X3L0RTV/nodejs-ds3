@@ -1,0 +1,77 @@
+[2026-10-15T01:39:00.945Z] custom:message - Logger prêt
+[2026-10-15T01:45:46.021Z] server:start - port 3000
+[2026-10-15T01:45:46.098Z] auth:failure - jean@example.com - ::1
+[2026-10-15T01:45:46.097Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T01:45:46.111Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T01:45:46.112Z] auth:success - jean@example.com - ::1
+[2026-10-15T01:45:46.115Z] auth:attempt - julie@example.com - ::1
+[2026-10-15T01:45:46.116Z] auth:success - julie@example.com - ::1
+[2026-10-15T01:45:46.126Z] action:triggered - action A - ::1
+[2026-10-15T01:45:46.142Z] action:triggered - action B - ::1
+[2026-10-15T01:45:46.157Z] action:triggered - action C - ::1
+[2026-10-15T01:48:47.739Z] server:start - port 3000
+[2026-10-15T01:49:00.058Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T01:49:00.058Z] auth:success - jean@example.com - ::1
+[2026-10-15T06:52:38.864Z] server:start - port 60388
+[2026-10-15T06:52:38.919Z] session:invalid - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.936Z] session:invalid - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.941Z] session:invalid - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.949Z] auth:attempt - julie@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.950Z] auth:success - julie@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.950Z] session:created - julie@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.969Z] auth:attempt - julie@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.970Z] auth:success - julie@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.970Z] session:created - julie@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.984Z] auth:attempt - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.985Z] auth:failure - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.989Z] auth:attempt - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.990Z] auth:failure - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.993Z] auth:attempt - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.994Z] auth:failure - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.994Z] auth:locked - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:38.997Z] auth:attempt - jean@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:39.014Z] auth:attempt - julie@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:39.015Z] session:created - julie@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:39.015Z] auth:success - julie@example.com - ::ffff:127.0.0.1
+[2026-10-15T06:52:39.030Z] action:triggered - julie@example.com - ::ffff:127.0.0.1 - action A
+[2026-10-15T06:52:39.046Z] action:triggered - julie@example.com - ::ffff:127.0.0.1 - action B
+[2026-10-15T06:52:39.061Z] action:triggered - julie@example.com - ::ffff:127.0.0.1 - action C
+[2026-10-15T06:52:39.077Z] action:triggered - julie@example.com - ::ffff:127.0.0.1 - action D
+[2026-10-15T06:52:39.092Z] action:triggered - julie@example.com - ::ffff:127.0.0.1 - action D
+[2026-10-15T06:56:37.384Z] server:start - port 3000
+[2026-10-15T06:57:13.312Z] auth:attempt - julie@example.com - ::1
+[2026-10-15T06:57:13.313Z] auth:success - julie@example.com - ::1
+[2026-10-15T06:57:13.313Z] session:created - julie@example.com - ::1
+[2026-10-15T06:57:36.271Z] action:triggered - julie@example.com - ::1 - action A
+[2026-10-15T06:57:36.994Z] action:triggered - julie@example.com - ::1 - action B
+[2026-10-15T06:57:37.568Z] action:triggered - julie@example.com - ::1 - action C
+[2026-10-15T06:57:38.099Z] action:triggered - julie@example.com - ::1 - action D
+[2026-10-15T06:57:39.158Z] action:triggered - julie@example.com - ::1 - action A
+[2026-10-15T06:57:40.111Z] action:triggered - julie@example.com - ::1 - action A
+[2026-10-15T06:57:40.804Z] action:triggered - julie@example.com - ::1 - action B
+[2026-10-15T06:57:41.324Z] action:triggered - julie@example.com - ::1 - action B
+[2026-10-15T06:57:41.862Z] action:triggered - julie@example.com - ::1 - action C
+[2026-10-15T06:57:42.967Z] action:triggered - julie@example.com - ::1 - action C
+[2026-10-15T06:57:43.364Z] action:triggered - julie@example.com - ::1 - action D
+[2026-10-15T06:57:53.992Z] action:triggered - julie@example.com - ::1 - action A
+[2026-10-15T06:57:54.916Z] action:triggered - julie@example.com - ::1 - action A
+[2026-10-15T06:57:55.250Z] action:triggered - julie@example.com - ::1 - action B
+[2026-10-15T06:57:55.845Z] action:triggered - julie@example.com - ::1 - action B
+[2026-10-15T06:57:56.153Z] action:triggered - julie@example.com - ::1 - action C
+[2026-10-15T06:58:01.439Z] action:triggered - julie@example.com - ::1 - action A
+[2026-10-15T06:58:54.500Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T06:58:54.501Z] auth:failure - jean@example.com - ::1
+[2026-10-15T06:58:55.835Z] auth:attempt - julie@example.com - ::1
+[2026-10-15T06:58:55.836Z] auth:success - julie@example.com - ::1
+[2026-10-15T06:58:55.836Z] session:created - julie@example.com - ::1
+[2026-10-15T06:59:03.792Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T06:59:03.793Z] auth:failure - jean@example.com - ::1
+[2026-10-15T06:59:07.888Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T06:59:07.889Z] auth:failure - jean@example.com - ::1
+[2026-10-15T06:59:07.889Z] auth:locked - jean@example.com - ::1
+[2026-10-15T06:59:18.814Z] auth:attempt - julie@example.com - ::1
+[2026-10-15T06:59:18.815Z] auth:failure - julie@example.com - ::1
+[2026-10-15T06:59:23.964Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T07:00:04.598Z] auth:attempt - julie@example.com - ::1
+[2026-10-15T07:00:04.598Z] auth:success - julie@example.com - ::1
+[2026-10-15T07:00:04.598Z] session:created - julie@example.com - ::1
